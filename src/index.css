@@ -1,11 +1,22 @@
 :root {
+  /* Brand Colors */
+  --color-primary: #f0b71f;
+  --color-secondary: #e03609;
+
+  /* Text Colors */
+  --color-text-dark: #222;
+  --color-text-light: #fff;
+
+  /* Backgrounds */
+  --color-bg: #010101;
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--color-bg);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,20 +26,19 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--color-text-light);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--color-primary);
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: var(--color-text-light);
 }
 
 h1 {
@@ -45,6 +55,9 @@ h6 {
   font-family: "Orbitron", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -75,4 +88,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.container {
+  max-width: 1417px;
+  margin: 0 auto;
 }
