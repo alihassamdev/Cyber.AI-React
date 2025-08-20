@@ -41,6 +41,7 @@ header ul a {
   justify-content: space-between;
   max-width: 1582px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 .header-bottom::before {
   content: "";

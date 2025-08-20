@@ -6,6 +6,7 @@
   /* Text Colors */
   --color-text-dark: #222;
   --color-text-light: #fff;
+  --color-text-grey: #dddddd;
 
   /* Backgrounds */
   --color-bg: #010101;
@@ -92,4 +93,5 @@ button:focus-visible {
 .container {
   max-width: 1417px;
   margin: 0 auto;
+  padding: 0 1rem;
 }

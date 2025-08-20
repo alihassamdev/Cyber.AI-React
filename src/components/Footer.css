@@ -1,0 +1,166 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer-top {
+  position: relative;
+}
+.footer-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1582px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.footer-top::before {
+  content: "";
+  position: absolute;
+  top: 48%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  z-index: 0;
+}
+
+.footer-top img {
+  position: relative;
+  z-index: 1;
+  transform: rotate(90deg);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 149px;
+  padding-top: 57px;
+  padding-bottom: 104px;
+}
+
+.footer-section.brand {
+  max-width: 478px;
+}
+
+.footer-section.info {
+  max-width: 161px;
+}
+
+.footer-section.menu {
+  max-width: 78px;
+}
+
+.footer-section.contact {
+  max-width: 192px;
+}
+.footer-section h4 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  color: #feffff;
+  margin: 0 0 9px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footer-section ul li,
+.footer-section a {
+  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 167%;
+  color: #cbcbcb;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--color-text-grey);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+.copyright {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: var(--color-text-light);
+}
+.copyright-icon img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.footer-bottom nav ul {
+  display: flex;
+  gap: 51px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-bottom nav ul li a {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.footer-bottom nav ul li a:hover {
+  color: var(--color-secondary);
+}
+
+.footer-icons {
+  display: flex;
+  gap: 21px;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--color-text-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.icon-circle svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--color-text-light);
+}
