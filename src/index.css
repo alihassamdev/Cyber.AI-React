@@ -24,16 +24,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-a {
-  font-weight: 500;
-  color: var(--color-text-light);
-  text-decoration: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-a:hover {
-  color: var(--color-primary);
+html,
+body {
+  overflow-x: hidden;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -41,19 +42,13 @@ body {
   min-height: 100vh;
   color: var(--color-text-light);
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-text-light);
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Orbitron", sans-serif;
+a:hover {
+  color: var(--color-primary);
 }
 
 ul {
@@ -91,7 +86,7 @@ button:focus-visible {
   }
 }
 .container {
-  max-width: 1417px;
+  max-width: 1433px;
   margin: 0 auto;
   padding: 0 1rem;
 }

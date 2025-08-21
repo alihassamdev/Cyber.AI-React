@@ -1,0 +1,190 @@
+.stats-section {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 212px;
+}
+
+/* Left - Stat Card */
+.stats-card {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  padding: 32px 34px 36px;
+  max-width: 655px;
+}
+
+.stats-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.stats-content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.stats-content h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 57.95px;
+}
+
+.stats-content h3 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.stats-content p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--color-text-grey);
+}
+
+/* Center Text Block */
+.text-block {
+  flex: 1;
+  max-width: 264px;
+  margin-bottom: 11px;
+}
+
+.text-block h3 {
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #feffff;
+  margin-bottom: 44px;
+}
+
+.text-block span {
+  font-weight: 600;
+}
+
+.text-block p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--color-text-grey);
+}
+
+/* Right - Stat Card */
+.experience-card {
+  max-width: 258px;
+  padding: 28px 38px 50px;
+}
+
+.experience-card h2 {
+  font-weight: 600;
+  font-size: 83.12px;
+}
+
+.experience-card p {
+  font-weight: 500;
+  font-size: 27.98px;
+}
+
+/* Tablet View (max-width: 768px) */
+@media (max-width: 768px) {
+  .stats-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 140px;
+  }
+
+  .stats-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px 20px;
+    gap: 24px;
+    max-width: 90%;
+  }
+
+  .stats-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .text-block {
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .text-block h3 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .text-block p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .experience-card {
+    padding: 24px 28px 36px;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .experience-card h2 {
+    font-size: 60px;
+  }
+
+  .experience-card p {
+    font-size: 22px;
+  }
+}
+
+/* Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .stats-section {
+    margin-bottom: 100px;
+    gap: 40px;
+  }
+
+  .stats-card {
+    padding: 20px 16px;
+    gap: 20px;
+  }
+
+  .stats-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .stats-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .stats-content p {
+    font-size: 0.9rem;
+    line-height: 28px;
+  }
+
+  .text-block h3 {
+    font-size: 24px;
+  }
+
+  .text-block p {
+    font-size: 14px;
+  }
+
+  .experience-card h2 {
+    font-size: 50px;
+  }
+
+  .experience-card p {
+    font-size: 18px;
+  }
+}
