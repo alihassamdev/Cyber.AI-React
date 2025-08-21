@@ -1,0 +1,149 @@
+.split-featureA-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  gap: 36px;
+  padding-bottom: 43px;
+}
+
+.split-featureA-content {
+  flex: 1;
+  max-width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 69px;
+}
+
+.split-featureA-content h1 {
+  font-family: Orbitron;
+  font-weight: 700;
+  font-size: 56.81px;
+  max-width: 685px;
+}
+
+.split-featureA-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--color-text-grey);
+  max-width: 668px;
+}
+
+.split-featureA-stats {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 70px;
+}
+
+.split-featureA-stats .stat {
+  max-width: 175px;
+}
+
+.stat h2 {
+  font-weight: 600;
+  font-size: 47.18px;
+  margin-bottom: 8px;
+}
+
+.stat p {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.split-featureA-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.split-featureA-image img {
+  width: 100%;
+  max-width: 657px;
+}
+
+/* Tablet View (max-width: 768px) */
+@media (max-width: 768px) {
+  .split-featureA-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .split-featureA-content {
+    max-width: 100%;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .split-featureA-content h1 {
+    font-size: 40px;
+    max-width: 100%;
+  }
+
+  .split-featureA-description {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 90%;
+  }
+
+  .split-featureA-stats {
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .split-featureA-stats .stat {
+    max-width: 150px;
+  }
+
+  .stat h2 {
+    font-size: 36px;
+  }
+
+  .stat p {
+    font-size: 16px;
+  }
+
+  .split-featureA-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .split-featureA-content {
+    gap: 32px;
+  }
+
+  .split-featureA-content h1 {
+    font-size: 28px;
+  }
+
+  .split-featureA-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .split-featureA-stats {
+    gap: 24px;
+  }
+
+  .stat h2 {
+    font-size: 28px;
+  }
+
+  .stat p {
+    font-size: 14px;
+  }
+
+  .split-featureA-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+}

@@ -7,11 +7,11 @@
     linear-gradient(90deg, var(--color-secondary), var(--color-primary));
 }
 
-.gradient-text {
+.gradient-text-alt {
   background: linear-gradient(
-    90deg,
-    var(--color-secondary),
-    var(--color-primary)
+    -90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

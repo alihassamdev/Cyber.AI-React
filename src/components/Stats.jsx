@@ -11,7 +11,7 @@ const Stats = () => {
             <div className="card stats-card">
                 <img src={statImg} alt="Cyberpunk Robot" />
                 <div className="stats-content">
-                    <h2 className='gradient-text'>76,285K+</h2>
+                    <h2 className='gradient-text-alt'>76,285K+</h2>
                     <h3>Experience the Future</h3>
                     <p>Explore the high-tech, low-life world where the lines between</p>
                 </div>
@@ -25,7 +25,7 @@ const Stats = () => {
 
             {/* <!-- Right card with experience years --> */}
             <div className="card experience-card">
-                <h2><span className="gradient-text">17+</span></h2>
+                <h2><span className="gradient-text-alt">17+</span></h2>
                 <p>Years of <br /> Experiences</p>
             </div>
         </section>

@@ -16,18 +16,18 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="container footer-container">
+            <div className="container footer-container">
 
                 {/* <!-- Brand + Description --> */}
-                <div class="footer-section brand">
-                    <div class="logo">Cyber.AI - Cyber Punk Website</div>
-                    <p class="description">
+                <div className="footer-section brand">
+                    <div className="logo">Cyber.AI - Cyber Punk Website</div>
+                    <p className="description">
                         Explore the high-tech, low-life world where the lines between humanity
                     </p>
                 </div>
 
                 {/* <!-- Information --> */}
-                <div class="footer-section info">
+                <div className="footer-section info">
                     <h4>Information</h4>
                     <ul>
                         <li><a href="#">Press Centre</a></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
 
                 {/* <!-- Menu --> */}
-                <div class="footer-section menu">
+                <div className="footer-section menu">
                     <h4>Menu</h4>
                     <ul>
                         <li><a href="#">About</a></li>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
 
                 {/* <!-- Contact --> */}
-                <div class="footer-section contact">
+                <div className="footer-section contact">
                     <h4>Contact</h4>
                     <ul>
                         <li>Phone : +123 456 789</li>
@@ -57,17 +57,17 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="container footer-bottom">
+            <div className="container footer-bottom">
                 {/* <!-- Copyright --> */}
-                <div class="footer-left copyright">
-                    <span class="copyright-icon">
+                <div className="footer-left copyright">
+                    <span className="copyright-icon">
                         <img src={copyrightIcon} alt="Copyright" />
                     </span>
                     Cyber.AI - Cyber Punk 2024. All rights reserved.
                 </div>
 
                 {/* <!-- Navigation --> */}
-                <nav class="footer-nav">
+                <nav className="footer-nav">
                     <ul>
                         <li><a href="#">Terms</a></li>
                         <li><a href="#">Privacy</a></li>
@@ -76,7 +76,7 @@ const Footer = () => {
                 </nav>
 
                 {/* <!-- Socail Icons --> */}
-                <div class="footer-icons">
+                <div className="footer-icons">
                     <a href="#">
                         <div className='icon-circle'>
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
