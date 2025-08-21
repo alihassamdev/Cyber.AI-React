@@ -1,0 +1,143 @@
+.media-text-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  gap: 105px;
+  padding-top: 229px;
+  padding-bottom: 144px;
+}
+
+.media-text-content {
+  flex: 1;
+  max-width: 591px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.media-text-content h1 {
+  font-family: Orbitron;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.media-text-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--color-text-grey);
+}
+
+.media-text-card h3 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
+.media-text-card p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: var(--color-text-grey);
+}
+
+.media-text-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.media-text-image img {
+  width: 100%;
+  max-width: 680px;
+}
+
+.media-text-content .button-group {
+  display: flex;
+  gap: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+.btn.primary:hover {
+  background-color: #e18d0e;
+}
+
+.btn.secondary {
+  color: var(--color-secondary);
+}
+
+.btn.secondary:hover {
+  color: #ff6b6b;
+}
+
+/* Tablet View (max-width: 768px) */
+@media (max-width: 768px) {
+  .media-text-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 48px;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .media-text-content {
+    max-width: 100%;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .media-text-content h1 {
+    font-size: 40px;
+    max-width: 90%;
+  }
+
+  .media-text-description {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 90%;
+  }
+
+  .media-text-content .button-group {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .media-text-content h1 {
+    font-size: 28px;
+  }
+
+  .media-text-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .btn {
+    padding: 9px 18px;
+    font-size: 14px;
+  }
+}

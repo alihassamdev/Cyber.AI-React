@@ -7,6 +7,7 @@ import SplitFeatureA from '../components/SplitFeatureA'
 import SplitFeatureB from '../components/SplitFeatureB'
 import CalloutPanel from '../components/CalloutPanel'
 import Feature from '../components/Feature'
+import MediaText from '../components/MediaText'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <SplitFeatureB />
             <CalloutPanel />
             <Feature />
+            <MediaText />
             <Footer />
         </>
 
