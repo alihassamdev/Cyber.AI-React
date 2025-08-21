@@ -16,28 +16,28 @@ const CalloutPanel = () => {
                 </div>
 
                 <div className="card callout-right">
-                    <ul class="menu">
+                    <ul className="menu">
                         <li>
 
-                            <span class="color-box yellow"></span>
-                            <span class="text">Join The Revolution</span>
-                            <span class="arrow"><img src={arrow} alt="" /></span>
+                            <span className="color-box yellow"></span>
+                            <span className="text">Join The Revolution</span>
+                            <span className="arrow"><img src={arrow} alt="" /></span>
                         </li>
                         <li>
-                            <span class="color-box red"></span>
-                            <span class="text">Art And Design</span>
-                            <span class="arrow"><img src={arrow} alt="" /></span>
+                            <span className="color-box red"></span>
+                            <span className="text">Art And Design</span>
+                            <span className="arrow"><img src={arrow} alt="" /></span>
 
                         </li>
                         <li>
-                            <span class="color-box yellow"></span>
-                            <span class="text">Tech And Gear</span>
-                            <span class="arrow"><img src={arrow} alt="" /></span>
+                            <span className="color-box yellow"></span>
+                            <span className="text">Tech And Gear</span>
+                            <span className="arrow"><img src={arrow} alt="" /></span>
                         </li>
                         <li>
-                            <span class="color-box red"></span>
-                            <span class="text">Stories And Lore</span>
-                            <span class="arrow"><img src={arrow} alt="" /></span>
+                            <span className="color-box red"></span>
+                            <span className="text">Stories And Lore</span>
+                            <span className="arrow"><img src={arrow} alt="" /></span>
                         </li>
                     </ul>
 
