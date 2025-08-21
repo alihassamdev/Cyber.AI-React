@@ -20,9 +20,9 @@ const MediaText = () => {
                 <p className="media-text-description">
                     A realm where advanced technology meets dystopian reality. Our website is your gateway to a universe of neon lights, gritty streets, and cybernetic enhancements.
                 </p>
-                <div class="button-group">
-                    <a href="#" class="btn primary">Read More</a>
-                    <a href="#" class="btn secondary">Learn More</a>
+                <div className="button-group">
+                    <a href="#" className="btn primary">Read More</a>
+                    <a href="#" className="btn secondary">Learn More</a>
                 </div>
             </div>
 

@@ -12,6 +12,13 @@
   color: #fff;
 }
 
+.callout-section .card {
+  border-radius: 20px;
+  background: #ffffff0a;
+  backdrop-filter: blur(51.4px);
+  -webkit-backdrop-filter: blur(51.4px);
+}
+
 .callout-left {
   flex: 1;
   max-width: 730px;
