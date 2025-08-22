@@ -90,3 +90,8 @@ button:focus-visible {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
