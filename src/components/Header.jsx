@@ -46,6 +46,7 @@ const Header = () => {
 
             {/* Mobile Menu Panel */}
             <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
+                <button className="close-menu" onClick={toggleMenu}> ✖</button>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Pages</a></li>

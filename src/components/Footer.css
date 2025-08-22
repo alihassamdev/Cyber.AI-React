@@ -230,8 +230,8 @@ footer {
 
   .footer-bottom {
     flex-direction: column;
-    gap: 16px;
-    padding: 20px 1rem;
+    gap: 32px;
+    padding: 20px 1rem 32px;
   }
 
   .footer-bottom nav ul {

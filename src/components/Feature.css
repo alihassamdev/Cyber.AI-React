@@ -12,7 +12,6 @@
   font-family: Orbitron;
   font-weight: 700;
   font-size: 55.4px;
-  line-height: 100%;
   text-align: center;
   margin-bottom: 37px;
   max-width: 855px;
@@ -46,6 +45,7 @@
 
 .feature-box:hover {
   transform: translateY(-6px);
+  cursor: default;
 }
 
 .feature-box .icon {

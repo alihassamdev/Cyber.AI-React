@@ -136,8 +136,26 @@ header ul a {
   cursor: pointer;
   color: var(--color-text-light);
   padding: 0;
-  z-index: 1000;
+  z-index: 100;
   padding: 5px 10px;
+}
+
+/* close button (X) */
+.close-menu {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  color: var(--color-text-light);
+  cursor: pointer;
+  z-index: 2000;
+  padding: 5px 10px;
+}
+
+.close-menu:hover {
+  opacity: 0.8;
 }
 
 /* Mobile Panel (default hidden) */
