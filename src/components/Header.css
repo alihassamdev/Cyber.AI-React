@@ -1,3 +1,6 @@
+header {
+  position: relative;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -22,7 +25,7 @@ header .logo {
 }
 header nav ul {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 header ul a {
   font-weight: 500;
@@ -118,4 +121,90 @@ header ul a {
 
 .button-ghost:hover {
   color: #e03609;
+}
+
+/* Hide toggle + mobile panel on desktop */
+.menu-toggle {
+  display: none;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-light);
+  padding: 0;
+  z-index: 1000;
+  padding: 5px 10px;
+}
+
+/* Mobile Panel (default hidden) */
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #1a1a1a;
+  padding: 2rem 1rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.mobile-menu ul li a {
+  font-size: 18px;
+  color: var(--color-text-light);
+  text-decoration: none;
+}
+.mobile-menu .button {
+  width: 100%;
+  max-width: 220px;
+}
+.mobile-menu.open {
+  display: flex;
+}
+
+/* ================= Tablet & Mobile ================= */
+@media (max-width: 1024px) {
+  .desktop-nav,
+  .desktop-cta {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-container {
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  .header-bottom img {
+    width: 36px;
+  }
+}
+
+/* Tablet View (max-width: 768px) */
+@media (max-width: 768px) {
+  .header-bottom img {
+    width: 30px;
+  }
 }
